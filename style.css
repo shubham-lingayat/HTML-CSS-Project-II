@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  height: 100%;
+  max-width: 1200px;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 20px 100px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.images {
+  display: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images figure {
+  width: 32%;
+  position: relatigve;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  filter: greyscale(100%);
+  box-shadow: 0 0 20px #333;
+  object-fit: cover;
+}
